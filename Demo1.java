@@ -6,7 +6,7 @@ package practice.test1;
  */
 public class Demo1 {
     public static void main(String[] args) {
-        getString(null);
+        getString('theory');
     }
     public static void getString(String s)throws NullPointerException{
         if(s == null){
