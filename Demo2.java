@@ -13,7 +13,7 @@ public class Demo2 {
     }
     public static String getString(String s)throws FileNotFoundException {
         if (!s.equals("a/.txt")) {
-            throw new FileNotFoundException("文件不存在！   请先上传文件");
+            throw new FileNotFoundException("文件不存在！   请先上传文件     我要拉取");
         }
         return s;
     }
